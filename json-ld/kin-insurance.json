@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Kin Insurance",
+  "url": "https://www.kin.com",
+  "description": "Kin Insurance is a direct-to-consumer home insurance platform founded in 2016 that leverages data and artificial intelligence to provide homeowners insurance in high-risk coastal and weather-exposed markets. The platform uses thousands of property data points for automated underwriting, enabling online quote generation, policy binding, and claims management without the need for traditional agents.",
+  "foundingDate": "2016",
+  "sameAs": [
+    "https://www.linkedin.com/company/kin-insurance",
+    "https://x.com/kin",
+    "https://github.com/kin-insurance"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://support.kin.com",
+    "contactType": "customer support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Kin Insurance Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Homeowners Insurance",
+        "url": "https://www.kin.com/homeowners-insurance/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Condo Insurance",
+        "url": "https://www.kin.com"
+      },
+      {
+        "@type": "Offer",
+        "name": "Flood Insurance",
+        "url": "https://www.kin.com"
+      },
+      {
+        "@type": "Offer",
+        "name": "Auto Insurance",
+        "url": "https://www.kin.com"
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Home Insurance",
+    "Homeowners Insurance",
+    "InsureTech",
+    "Property Data",
+    "Automated Underwriting",
+    "Claims Management",
+    "Direct-to-Consumer Insurance",
+    "Coastal and High-Risk Markets",
+    "Geospatial Property Intelligence"
+  ],
+  "areaServed": "US"
+}
