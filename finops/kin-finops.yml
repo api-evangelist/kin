@@ -1,0 +1,68 @@
+name: Kin Insurance FinOps
+description: >-
+  Financial operations profile for Kin Insurance, a direct-to-consumer
+  InsureTech company. Kin does not offer a public API marketplace with
+  consumption-based billing. Financial interactions with Kin occur through
+  insurance premium payments, claims disbursements, and potential
+  partnership or embedding agreements. This document covers the financial
+  model and cost considerations for businesses and consumers engaging
+  with Kin's platform.
+financialModel:
+  type: Insurance Premium Model
+  description: >-
+    Kin generates revenue through insurance premiums collected from
+    policyholders. Premiums are priced individually based on risk assessment
+    using property data, location, construction type, and other underwriting
+    factors. There is no API consumption billing or metered usage cost
+    for consumer interactions.
+  carriers:
+    - name: Kin Interinsurance Network
+      description: Primary insurance carrier entity
+    - name: Kin Interinsurance Nexus Exchange
+      description: Secondary insurance carrier entity
+costDrivers:
+  - name: Insurance Premium
+    description: >-
+      The primary cost for consumers is the annual or monthly insurance
+      premium, which varies based on property risk factors. Kin positions
+      itself as offering lower premiums than traditional carriers by
+      eliminating agent commissions and using data-driven underwriting.
+    billing: Annual or monthly installments
+    variability: Risk-based; varies by property, location, and coverage level
+  - name: Coverage Deductibles
+    description: >-
+      Policyholders pay deductibles when filing claims. Deductible amounts
+      vary by policy and coverage type (e.g., separate hurricane/wind
+      deductibles may apply in coastal states).
+    billing: Per-claim
+    variability: Policy-specific
+  - name: Optional Coverage Endorsements
+    description: >-
+      Additional coverage options such as water backup, equipment breakdown,
+      and scheduled personal property may add to base premium costs.
+    billing: Included in annual/monthly premium
+    variability: Elective add-ons
+partnerFinancials:
+  description: >-
+    Businesses or technology partners interested in embedding Kin's
+    insurance products or integrating their data APIs would engage through
+    direct partnership agreements. Financial terms for such arrangements
+    are not publicly disclosed.
+  contact: https://www.kin.com/contact/
+fundingProfile:
+  status: Private (Unicorn - $1B+ valuation as of 2023)
+  totalFunding: ~$265 million in equity funding (as of 2024)
+  investors:
+    - 8VC
+    - American Family Ventures
+    - IMPACT ENGINE
+  notable:
+    - Achieved unicorn status in 2023
+    - Raised $15 million additional financing in 2024
+    - Inc. 5000 honoree in 2025
+notes: >-
+  Kin Insurance is a direct-to-consumer business without a public API
+  monetization model. FinOps considerations for businesses are primarily
+  around partnership and integration agreements rather than API consumption
+  costs. All premium pricing is generated dynamically based on individual
+  property risk assessment through their online quote engine at kin.com.

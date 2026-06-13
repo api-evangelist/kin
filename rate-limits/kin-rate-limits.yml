@@ -1,0 +1,45 @@
+name: Kin Insurance Rate Limits
+description: >-
+  Kin Insurance is a direct-to-consumer insurance platform without a
+  publicly documented API program. As such, specific rate limit documentation
+  is not publicly available. The following reflects known operational
+  characteristics of their platform and industry-standard practices for
+  insurance APIs of this type.
+rateLimits:
+  - name: Quote Generation
+    description: >-
+      Online quote generation is available to consumers via the kin.com website.
+      No public API rate limits are documented for external developers.
+      Internal quote engine limits are managed through Kin's underwriting
+      platform and depend on integration agreements.
+    scope: Consumer-facing web application
+    limits:
+      - type: Session
+        notes: Standard web session limits apply via kin.com quote flow
+  - name: Partner API Access
+    description: >-
+      Kin integrates with data partners such as Cape Analytics for geospatial
+      property intelligence. Partner API access is governed by individual
+      partnership agreements rather than a public rate limit policy.
+    scope: Partner integrations
+    limits:
+      - type: Contract-based
+        notes: >-
+          Rate limits negotiated per partnership agreement; not publicly
+          documented
+  - name: Claims API
+    description: >-
+      Claims management is handled through Kin's partnership with Snapsheet
+      for end-to-end claims processing. API access to claims data is
+      internal and governed by operational SLAs.
+    scope: Internal operations and partner integrations
+    limits:
+      - type: Operational SLA
+        notes: >-
+          Not publicly documented; governed by Snapsheet integration terms
+notes: >-
+  Kin Insurance does not publish a public developer API with documented
+  rate limits. Their technology platform leverages third-party data providers
+  (Cape Analytics for geospatial data, Snapsheet for claims) via internal
+  API integrations. Developers or businesses interested in integration
+  should contact Kin through their official channels at kin.com.

@@ -1,0 +1,76 @@
+aid: kin
+name: Kin Insurance
+description: >-
+  Kin Insurance is a direct-to-consumer home insurance platform founded in 2016
+  that leverages data and artificial intelligence to provide homeowners insurance
+  in high-risk coastal and weather-exposed markets. The platform uses thousands
+  of property data points for automated underwriting, enabling online quote
+  generation, policy binding, and claims management without the need for
+  traditional agents. Kin offers homeowners, condo, flood, and auto insurance
+  across multiple states with a focus on affordability and accessibility in
+  markets traditionally underserved by major carriers.
+type: Index
+image: >-
+  https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/kin/refs/heads/main/apis.yml
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+tags:
+  - Insurance
+  - Home Insurance
+  - InsureTech
+  - Property Data
+  - Underwriting
+  - Claims
+  - Direct-to-Consumer
+apis:
+  - aid: kin:kin-insurance-platform
+    name: Kin Insurance Platform API
+    description: >-
+      The Kin Insurance platform provides data-driven home insurance services
+      including property data enrichment, automated underwriting, online quote
+      generation, policy binding, and claims management for homeowners in
+      coastal and high-risk markets. The platform leverages geospatial property
+      intelligence and AI to streamline the insurance purchase and claims
+      experience directly with consumers.
+    image: >-
+      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://www.kin.com
+    humanURL: https://www.kin.com
+    overlays: []
+    contact:
+      - FN: Kin Insurance Support
+        url: https://support.kin.com
+    properties:
+      - type: Documentation
+        url: https://support.kin.com
+      - type: Website
+        url: https://www.kin.com
+common:
+  - type: Website
+    url: https://www.kin.com
+  - type: Documentation
+    url: https://support.kin.com
+  - type: GitHubOrg
+    url: https://github.com/kin-insurance
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/kin-insurance
+  - type: Blog
+    url: https://www.kin.com/blog/
+  - type: Pricing
+    url: https://www.kin.com/homeowners-insurance/
+  - type: StatusPage
+    url: https://status.kin.com
+  - type: X
+    url: https://x.com/kin
+  - type: Plans
+    url: plans/kin-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/kin-rate-limits.yml
+  - type: FinOps
+    url: finops/kin-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

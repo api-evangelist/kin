@@ -1,0 +1,76 @@
+name: Kin Insurance Plans and Pricing
+description: >-
+  Kin Insurance operates as a direct-to-consumer home insurance provider.
+  Unlike SaaS API platforms with tiered subscription plans, Kin offers
+  insurance policies priced individually based on property-specific risk
+  factors. Premiums are calculated using thousands of property data points
+  including location, construction type, roof age, proximity to coast,
+  and claims history. Kin does not publish a public developer API with
+  subscription tiers; pricing is determined per quote for each insured property.
+plans:
+  - name: Homeowners Insurance
+    description: >-
+      Standard homeowners insurance covering dwelling, personal property,
+      liability, and additional living expenses. Available in Florida, Alabama,
+      Arizona, Georgia, Louisiana, Mississippi, Oklahoma, South Carolina,
+      Tennessee, Texas, and Virginia.
+    url: https://www.kin.com/homeowners-insurance/
+    features:
+      - Dwelling coverage
+      - Personal property protection
+      - Liability coverage
+      - Additional living expenses
+      - Water backup coverage option
+      - Equipment breakdown coverage option
+    pricing:
+      model: Per-policy premium
+      basis: Risk-based underwriting using property data
+      quote: Online instant quote available at kin.com
+  - name: Condo Insurance
+    description: >-
+      Coverage for condo unit owners including personal property, liability,
+      and improvements to the unit interior.
+    url: https://www.kin.com/condo-insurance/
+    features:
+      - Personal property coverage
+      - Unit improvements and betterments
+      - Liability protection
+      - Loss assessment coverage
+    pricing:
+      model: Per-policy premium
+      basis: Risk-based underwriting
+      quote: Online instant quote available at kin.com
+  - name: Flood Insurance
+    description: >-
+      Private flood insurance as an alternative or supplement to NFIP policies,
+      often with higher coverage limits and faster claims processing.
+    url: https://www.kin.com/flood-insurance/
+    features:
+      - Building property coverage
+      - Personal contents coverage
+      - Replacement cost coverage option
+      - Faster claims than NFIP
+    pricing:
+      model: Per-policy premium
+      basis: Flood zone and elevation data-driven underwriting
+      quote: Online instant quote available at kin.com
+  - name: Auto Insurance
+    description: >-
+      Auto insurance offering expanded from Kin's home insurance platform,
+      leveraging the same data-driven underwriting approach.
+    url: https://www.kin.com/auto-insurance/
+    features:
+      - Liability coverage
+      - Collision coverage
+      - Comprehensive coverage
+      - Uninsured motorist protection
+    pricing:
+      model: Per-policy premium
+      basis: Vehicle and driver risk-based underwriting
+      quote: Online instant quote available at kin.com
+notes: >-
+  Kin does not currently offer a public B2B API program with published pricing
+  tiers. Their platform APIs for property data enrichment, quote generation,
+  policy binding, and claims management are internal to their direct-to-consumer
+  operations and partner integrations. Contact Kin directly for partnership
+  or embedding inquiries.
