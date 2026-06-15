@@ -63,5 +63,14 @@
       "url": "https://www.kin.com/blog/average-cost-home-insurance-south-carolina/",
       "description": "Average pricing data for South Carolina homeowners insurance."
     }
-  ]
+  ],
+  "repo": "kin",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/kin-insurance",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
