@@ -1,76 +1,14 @@
 {
-  "provider": "kin",
-  "url": "https://www.kin.com/blog/",
-  "lastFetched": "2026-06-13",
-  "posts": [
-    {
-      "title": "How to bundle home and auto insurance to save money",
-      "url": "https://www.kin.com/blog/bundling-home-auto-insurance-guide/",
-      "description": "Guidance on combining home and auto policies for savings."
-    },
-    {
-      "title": "Do you need flood insurance in Tennessee? What it covers & costs",
-      "url": "https://www.kin.com/blog/tennessee-flood-insurance/",
-      "description": "Information about flood insurance coverage and pricing in Tennessee."
-    },
-    {
-      "title": "How roof type affects home insurance",
-      "url": "https://www.kin.com/blog/how-roof-type-affects-home-insurance/",
-      "description": "Explanation of how roofing materials impact insurance rates."
-    },
-    {
-      "title": "Does Florida homeowners insurance cover sinkholes?",
-      "url": "https://www.kin.com/blog/florida-sinkhole-insurance/",
-      "description": "Coverage details for sinkhole damage in Florida policies."
-    },
-    {
-      "title": "Do you need flood insurance in Louisiana? What it covers & costs",
-      "url": "https://www.kin.com/blog/louisiana-flood-insurance/",
-      "description": "Flood insurance coverage and cost information for Louisiana."
-    },
-    {
-      "title": "Do you need flood insurance in South Carolina? What it covers & costs",
-      "url": "https://www.kin.com/blog/south-carolina-flood-insurance/",
-      "description": "Flood insurance details specific to South Carolina."
-    },
-    {
-      "title": "Does homeowners insurance cover earthquakes in California?",
-      "url": "https://www.kin.com/blog/california-earthquake-insurance/",
-      "description": "Earthquake coverage information for California homeowners."
-    },
-    {
-      "title": "37% of Georgia homeowners say Hurricane Helene changed their views on owning a home",
-      "url": "https://www.kin.com/blog/georgia-homeowners-insurance-survey-2026/",
-      "description": "Survey revealing how Hurricane Helene affected homeowner perspectives in Georgia."
-    },
-    {
-      "title": "What is the average cost of homeowners insurance in Colorado?",
-      "url": "https://www.kin.com/blog/average-cost-home-insurance-colorado/",
-      "description": "Average pricing data for Colorado homeowners insurance."
-    },
-    {
-      "title": "What is the average cost of homeowners insurance in Florida?",
-      "url": "https://www.kin.com/blog/average-cost-home-insurance-florida/",
-      "description": "Average pricing data for Florida homeowners insurance."
-    },
-    {
-      "title": "What is the average cost of homeowners insurance in Tennessee?",
-      "url": "https://www.kin.com/blog/average-cost-home-insurance-tennessee/",
-      "description": "Average pricing data for Tennessee homeowners insurance."
-    },
-    {
-      "title": "What is the average cost of homeowners insurance in South Carolina?",
-      "url": "https://www.kin.com/blog/average-cost-home-insurance-south-carolina/",
-      "description": "Average pricing data for South Carolina homeowners insurance."
-    }
-  ],
   "repo": "kin",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/kin-insurance",
-      "error": "HTTPError"
+      "source": "https://www.kin.com/blog/",
+      "feed_url": "",
+      "saved": 1,
+      "method": "agent-scrape"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:49:40Z",
+  "post_count": 4,
+  "agent_pulled": "2026-06-27"
 }
