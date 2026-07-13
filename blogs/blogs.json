@@ -2,13 +2,14 @@
   "repo": "kin",
   "feeds": [
     {
-      "source": "https://www.kin.com/blog/",
-      "feed_url": "",
-      "saved": 1,
-      "method": "agent-scrape"
+      "source": "https://www.linkedin.com/company/kin-insurance",
+      "feed_url": "https://www.linkedin.com/company/kin-insurance",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:49:40Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 4,
-  "agent_pulled": "2026-06-27"
+  "agent_pulled": "2026-07-04"
 }
