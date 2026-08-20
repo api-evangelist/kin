@@ -36,6 +36,14 @@ tags:
   - Property Data
   - Underwriting
   - Claims
+  - Direct to Consumer
+tags_raw:
+  - Insurance
+  - Home Insurance
+  - InsureTech
+  - Property Data
+  - Underwriting
+  - Claims
   - Direct-to-Consumer
 apis:
   - aid: kin:kin-insurance-platform
