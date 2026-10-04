@@ -68,7 +68,6 @@ apis:
       experience directly with consumers.
     image: >-
       https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    baseURL: https://www.kin.com
     humanURL: https://www.kin.com
     overlays: []
     contact:
