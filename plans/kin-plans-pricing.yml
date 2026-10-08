@@ -78,3 +78,34 @@ notes: >-
   policy binding, and claims management are internal to their direct-to-consumer
   operations and partner integrations. Contact Kin directly for partnership
   or embedding inquiries.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Homeowners Insurance
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Condo Insurance
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Flood Insurance
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Auto Insurance
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
