@@ -64,40 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kin Insurance is a direct-to-consumer home insurance platform founded in 2016 that leverages data and artificial intelligence to provide homeowners insurance in high-risk coastal and weather-exposed markets. The platform uses thousands of property data points for automated underwriting, enabling online quote generation, policy binding, and claims management without the need for traditional agents.
+Kin Insurance is a direct-to-consumer home insurance platform founded in 2016 that leverages data and artificial intelligence to provide homeowners insurance in high-risk coastal and weather-exposed markets. The platform uses thousands of property data points for automated underwriting, enabling online quote generation, policy binding, and claims management without the need for traditional agents. Kin offers homeowners, condo, flood, and auto insurance across multiple states with a focus on affordability and accessibility in markets traditionally underserved by major carriers.
 
-## Overview
+**Areas:** Insurance · Home Insurance · InsureTech · Property Data · Underwriting · Claims · Direct to Consumer
 
-- **Website:** [kin.com](https://www.kin.com)
-- **Support:** [support.kin.com](https://support.kin.com)
-- **Blog:** [kin.com/blog](https://www.kin.com/blog/)
-- **LinkedIn:** [linkedin.com/company/kin-insurance](https://www.linkedin.com/company/kin-insurance)
-- **X:** [x.com/kin](https://x.com/kin)
+## Kin Insurance on APIs.io
 
-## Products
+Everything profiled for Kin Insurance is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kin/](https://apis.io/providers/kin/)** — or go straight to one of the APIs or properties below.
 
-- Homeowners Insurance
-- Condo Insurance
-- Flood Insurance
-- Auto Insurance
+### APIs (1)
 
-## Coverage States
+- [Kin Insurance Platform API](https://apis.io/apis/kin/kin-insurance-platform/) — The Kin Insurance platform provides data-driven home insurance services including property data enrichment, automated underwriting, online quote generation,…
 
-Florida, Alabama, Arizona, Georgia, Louisiana, Mississippi, Oklahoma, South Carolina, Tennessee, Texas, Virginia
+### Published properties
 
-## Technology
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Kin's platform integrates property data enrichment (via Cape Analytics for geospatial intelligence), AI-driven underwriting, and end-to-end claims management (via Snapsheet). The company achieved unicorn status in 2023 with over $265 million in equity funding.
+#### Security (1)
 
-## APIs.json
+Authentication, trust centre, and vulnerability disclosure.
 
-This repository contains the APIs.json 0.19 profile for Kin Insurance.
+- [Kin Domain Security](https://apis.io/security/kin/kin-domain-security/)
 
-- [apis.yml](apis.yml) - APIs.json index
-- [plans/kin-plans-pricing.yml](plans/kin-plans-pricing.yml) - Insurance product plans
-- [rate-limits/kin-rate-limits.yml](rate-limits/kin-rate-limits.yml) - Platform rate limits
-- [finops/kin-finops.yml](finops/kin-finops.yml) - Financial operations profile
+#### Plans and pricing (1)
 
-## Maintainer
+Published plans, tiers and prices.
 
-Kin Lane (kin@apievangelist.com)
+- [Kin Plans Pricing](https://apis.io/plans/kin/kin-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Kin Rate Limits](https://apis.io/rate-limits/kin/kin-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Kin Finops](https://apis.io/finops/kin/kin-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kin.com)
+- [Documentation](https://support.kin.com)
+- [Pricing](https://www.kin.com/homeowners-insurance/)
+- [Blog](https://www.kin.com/blog/)
+- [Status](https://status.kin.com)
+
+## API Evangelist rating
+
+**Kin Score 9.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kin/](https://apis.io/providers/kin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kin Insurance: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
